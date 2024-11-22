@@ -9,9 +9,9 @@ enum class Mode
 int modeToNum(Mode mode)
 {
     if (mode == Mode::LINE)
-        return 0;
-    else if (mode == Mode::RC)
         return 1;
+    else if (mode == Mode::RC)
+        return 0;
     else
         return 0;
 }
